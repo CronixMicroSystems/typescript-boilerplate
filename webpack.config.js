@@ -81,8 +81,7 @@ module.exports = function () {
         {
           test: /\.ts$/,
           enforce: 'pre',
-          loader: 'tslint-loader',
-          options: { /* Loader options go here */ }
+          loader: 'tslint-loader'
         },
         {
           test: /\.tsx?$/,

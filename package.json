@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "src",
+  "private": false,
+  "name": "TypeScript-boilerlate",
   "version": "1.0.0",
   "description": "",
   "homepage": "",
@@ -56,14 +56,11 @@
     "ts-loader": "^2.0.3",
     "tslint": "^4.5.1",
     "tslint-loader": "^3.4.3",
-    "typescript": "^2.2.1",
+    "typescript": "next",
     "url-loader": "^0.5.7",
     "webpack": "^2.3.2",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-dev-server": "^2.3.0",
     "webpack-hot-middleware": "^2.13.2"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-class-properties": "^6.23.0"
   }
 }
